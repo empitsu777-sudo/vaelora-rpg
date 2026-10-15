@@ -1,0 +1,17 @@
+# Build output and temporary files
+build/
+dist/
+*.o
+*.elf
+*.map
+*.sav
+*.srm
+*.tmp
+.DS_Store
+__pycache__/
+
+# Copyrighted reference material stays local and is NEVER committed
+pokeemerald-master/
+Pokemon - Emerald Version*.gba
+reference_roms/
+reference_assets/
