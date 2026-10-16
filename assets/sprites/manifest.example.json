@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "note": "Example only; replace with actual original art before running the validator",
+  "sprites": [
+    {"id":"wayfarer_walk","file":"assets/sprites/wayfarer_walk.png","frame_width":16,"frame_height":32,"columns":3,"rows":4,"palette_bank":0,"origin":"original"},
+    {"id":"scuttle_idle","file":"assets/sprites/scuttle_idle.png","frame_width":32,"frame_height":32,"columns":2,"rows":1,"palette_bank":1,"origin":"original"}
+  ]
+}
