@@ -7,7 +7,7 @@
 An original 640×448 town canvas (40×28 logical 16×16 units) has four identifiable shops/homes, a central brass Bastion Spire, copper Chime Hearth, cobblestone plaza, hanging signs, gardens, trees, a river and bridge. The C prototype implements a native 240×160 moving viewport, position collision, three NPCs, a shard-collection quest, three player coat palettes, contextual conversations, a Kith follower and a compact HUD.
 
 - **Build:** Clang ARMv4T/LLD generated a 524,288-byte .gba cartridge.
-- **Tests:** valid ROM header/checksum, palette and art dimensions, reachable NPCs / shard / Hearth / Spire; reproducible deterministic build SHA-256: `8d885997939019def4f4371114b4fd87a32489173df442af134950cf05c4a21e`.
+- **Tests:** valid ROM header/checksum, palette and art dimensions, reachable NPCs / shard / Hearth / Spire; reproducible deterministic build SHA-256: `11b2146bc7c978a088030a26938a37eaccadd67494bd67d43bf3ab4c15c01b2c`.
 - **Not tested:** boot/play input in mGBA or physical GBA; visual UI accuracy in running emulator. Rendered host previews are *not* emulator screenshots.
 
 ## Visual strategy learned from reference material
