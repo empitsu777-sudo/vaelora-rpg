@@ -4,10 +4,10 @@
 **Genre:** original top-down GBA action-adventure RPG, not a Pokémon-style turn-based monster collector.
 
 ## Delivered locally (verified from source and build)
-An original 640×448 town canvas (40×28 logical 16×16 units) has four identifiable shops/homes, a central brass Bastion Spire, copper Chime Hearth, cobblestone plaza, hanging signs, gardens, trees, a river and bridge. The C prototype implements a native 240×160 moving viewport, position collision, three NPCs, a shard-collection quest, three player coat palettes, contextual conversations, a Kith follower and a compact HUD.
+An original 640×448 town canvas (40×28 logical 16×16 units) has four identifiable shops/homes, a central brass Bastion Spire, copper Chime Hearth, cobblestone plaza, hanging signs, gardens, trees, a river and bridge. The C prototype implements a native 240×160 moving viewport, position collision, three NPCs, a shard-collection quest, three player coat palettes and four-facing, three-pose walking art, contextual conversations, a Kith follower and a compact HUD.
 
 - **Build:** Clang ARMv4T/LLD generated a 524,288-byte .gba cartridge.
-- **Tests:** valid ROM header/checksum, palette and art dimensions, reachable NPCs / shard / Hearth / Spire; reproducible deterministic build SHA-256: `11b2146bc7c978a088030a26938a37eaccadd67494bd67d43bf3ab4c15c01b2c`.
+- **Tests:** valid ROM header/checksum, palette and art dimensions, reachable NPCs / shard / Hearth / Spire; reproducible deterministic build SHA-256: `ce30951e509b01f4fde4ae81891b5e68c4d4d93491e9f2374a8f74a18c8fb354`.
 - **Not tested:** boot/play input in mGBA or physical GBA; visual UI accuracy in running emulator. Rendered host previews are *not* emulator screenshots.
 
 ## Visual strategy learned from reference material
