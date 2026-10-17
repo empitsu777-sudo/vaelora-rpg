@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "status": "PROPOSED",
+  "town_prefixes": [
+    "SH",
+    "SC",
+    "IW",
+    "TC",
+    "AW",
+    "SB"
+  ],
+  "start": "SH1",
+  "sanctum_flags": [
+    "broken_bell_cleared",
+    "returning_tide_cleared",
+    "buried_magnet_cleared",
+    "night_bloom_cleared",
+    "open_sky_cleared",
+    "unheard_crown_cleared"
+  ],
+  "routes": [
+    {
+      "id": "RT01",
+      "a": "SH1",
+      "b": "SH2",
+      "mode": "foot",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT02",
+      "a": "SH2",
+      "b": "SH3",
+      "mode": "foot",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT03",
+      "a": "SC1",
+      "b": "SC2",
+      "mode": "foot",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT04",
+      "a": "SC2",
+      "b": "SC3",
+      "mode": "skiff",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT05",
+      "a": "IW1",
+      "b": "IW2",
+      "mode": "rail",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT06",
+      "a": "IW2",
+      "b": "IW3",
+      "mode": "foot",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT07",
+      "a": "TC1",
+      "b": "TC2",
+      "mode": "canopy",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT08",
+      "a": "TC2",
+      "b": "TC3",
+      "mode": "foot",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT09",
+      "a": "AW1",
+      "b": "AW2",
+      "mode": "bridge",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT10",
+      "a": "AW2",
+      "b": "AW3",
+      "mode": "foot",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT11",
+      "a": "SB1",
+      "b": "SB2",
+      "mode": "foot",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT12",
+      "a": "SB2",
+      "b": "SB3",
+      "mode": "foot",
+      "requires": [],
+      "role": "main"
+    },
+    {
+      "id": "RT13",
+      "a": "SH3",
+      "b": "SC1",
+      "mode": "foot",
+      "requires": [
+        "broken_bell_cleared"
+      ],
+      "role": "main"
+    },
+    {
+      "id": "RT14",
+      "a": "SC3",
+      "b": "IW1",
+      "mode": "skiff",
+      "requires": [
+        "returning_tide_cleared"
+      ],
+      "role": "main"
+    },
+    {
+      "id": "RT15",
+      "a": "IW3",
+      "b": "TC1",
+      "mode": "foot",
+      "requires": [
+        "buried_magnet_cleared"
+      ],
+      "role": "main"
+    },
+    {
+      "id": "RT16",
+      "a": "TC3",
+      "b": "AW1",
+      "mode": "foot",
+      "requires": [
+        "night_bloom_cleared"
+      ],
+      "role": "main"
+    },
+    {
+      "id": "RT17",
+      "a": "AW3",
+      "b": "SB1",
+      "mode": "bridge",
+      "requires": [
+        "open_sky_cleared"
+      ],
+      "role": "main"
+    },
+    {
+      "id": "RT18",
+      "a": "SB3",
+      "b": "SH1",
+      "mode": "foot",
+      "requires": [
+        "unheard_crown_cleared"
+      ],
+      "role": "main"
+    },
+    {
+      "id": "RT19",
+      "a": "SH2",
+      "b": "SC1",
+      "mode": "ferry",
+      "requires": [
+        "broken_bell_cleared",
+        "reedwake_ferry_restored"
+      ],
+      "role": "shortcut"
+    },
+    {
+      "id": "RT20",
+      "a": "SH3",
+      "b": "IW1",
+      "mode": "rail",
+      "requires": [
+        "returning_tide_cleared",
+        "glassrail_repaired"
+      ],
+      "role": "shortcut"
+    },
+    {
+      "id": "RT21",
+      "a": "SC2",
+      "b": "TC1",
+      "mode": "skiff",
+      "requires": [
+        "buried_magnet_cleared",
+        "root_current_restored"
+      ],
+      "role": "shortcut"
+    },
+    {
+      "id": "RT22",
+      "a": "IW3",
+      "b": "AW2",
+      "mode": "lift",
+      "requires": [
+        "night_bloom_cleared",
+        "orelift_repaired"
+      ],
+      "role": "shortcut"
+    },
+    {
+      "id": "RT23",
+      "a": "TC2",
+      "b": "SB2",
+      "mode": "foot",
+      "requires": [
+        "open_sky_cleared",
+        "pilgrim_route_reopened"
+      ],
+      "role": "shortcut"
+    },
+    {
+      "id": "RT24",
+      "a": "AW1",
+      "b": "SB1",
+      "mode": "bridge",
+      "requires": [
+        "open_sky_cleared",
+        "watchwind_lit"
+      ],
+      "role": "shortcut"
+    }
+  ]
+}
