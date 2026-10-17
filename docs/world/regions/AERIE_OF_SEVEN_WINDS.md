@@ -1,0 +1,10 @@
+# Aerie of Seven Winds — Region 5 (proposed)
+**Route:** Kestrel Roost → Skybraid → Galeheart → Open Sky Sanctum. Cliffs, updrafts and suspension bridges. Economy: weather reports, windwoven cloth and sky mail traded for cables and grain. Custom: public bridge maintenance; nobody owns the wind corridor. Sound: breath flutes and taut-wire harmonics. Conflict: profitable shortcuts endanger remote hamlets.
+
+**Kestrel Roost:** Windmill roosts, cliff ladders and sail awnings; a cliff trail opens onto a nesting shelf. **Vesa Kestrel**, courier, argues for seasonal flight closures and knows Elder Fenna of Mourning Grove. Interiors: roost, map loft. Landmark: Three-Wing Perch. **Q_AW1 The Shortcut Above Eggs:** map gusts and rescue a courier, then establish seasonal detour or supervised crossing. Reward: wind-thread satchel. Return state: new flight flags and nesting perches.
+
+**Skybraid:** Ribbon looms, cable towers and a deep gorge crossed by suspension bridges. **Kori Brae**, cable weaver, has a supply dispute with Anvilrest's Bera Flint. Interiors: loomhouse, bridge station. Landmark: Braided Span. **Q_AW2 A Knot in the Wind:** damp a dangerously resonating bridge; choose heavy-freight reinforcement or a lighter pedestrian design. Reward: cosmetic cloak trim. Return state: visibly changed cables and crossing rules.
+
+**Galeheart:** Seven-vane tower, cloud terraces and white spires. **Eris Gale**, weather singer, once withheld a storm forecast; Keeper Noa of Quietwatch received the altered message. Interiors: forecast hall, vane workshop. Landmark: Seven-Vane Crown. **Q_AW3 The Forecast Kept Quiet:** rebuild the warning chain and choose accountable broadcast or courier relays. Reward: Zephyr traversal weave. Return state: warning kites appear over farms.
+
+**Open Sky Sanctum:** demonstrate Over-Pitch (Cinder + Zephyr) in vented chambers, with safe exits and a nearby Hearth; no unavoidable fire trap. Completion opens the Watchwind route to Quietwatch. Art: sharply different roost, bridge and tower silhouettes with clear fall-safe walkable boundaries.
