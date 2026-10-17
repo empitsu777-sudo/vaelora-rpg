@@ -1,0 +1,10 @@
+# Thorn Choir — Region 4 (proposed)
+**Route:** Rootwhisper → Bloomshade → Mourning Grove → Night Bloom Sanctum. Giant trees, living bridges and violet blossoms. Economy: resin, herbs and fiber traded for salt and precision tools. Custom: living bridges are asked for passage, never compelled. Sound: wood clicks and alternating leaf-whispers. Central conflict: forest healing can redirect scarce water from downstream villages.
+
+**Rootwhisper:** Root arches and suspended gardens form the skyline; a living arch marks entry. **Aya Root**, bridge steward, disputes Anvilrest ore runoff; Luma Tide is her coastal contact. Interiors: bridgehouse, apothecary. Landmark: Listening Arch. **Q_TC1 The Bridge That Refused:** find runoff, repair the riverbank, then choose a freight detour or cleaner cargo treatment. Reward: resin grip upgrade. Return state: clean water and a renewed bridge approach.
+
+**Bloomshade:** Giant petal canopies and violet seed lanterns; dim blossom tunnel arrival. **Leth Mirren**, seed physician, debates how to distribute a scarce remedy. Interiors: clinic, seed library. Landmark: Dusk Conservatory. **Q_TC2 A Cure with Roots:** measure a Verdant–Umbra Parasitic Bloom effect and restore balanced growth. Reward: salve recipe. Return state: different flower beds and a recovered patient.
+
+**Mourning Grove:** Blackwood memorial trees and hanging lanterns; a quiet trail opens to a tree-ring. **Elder Fenna**, grove listener, has a connection to Kestrel Roost's Vesa. Interiors: listening lodge, memorial alcove. Landmark: Night Bloom. **Q_TC3 The Name Beneath Bark:** investigate an old root echo and release an Umbra trap; choose a private remembrance or public gathering. Reward: veil weaving. Return state: memorial ribbons or a secluded shrine.
+
+**Night Bloom Sanctum:** use Verdant and Umbra in controlled Parasitic Bloom with visible regrowth. A Hearth is available before the required gate. Release the grove from coercion; completion grows a safe cloudroot stair toward Kestrel Roost. Art: roots, canopy and blackwood need unique architecture and contrast, not one forest palette swap.
