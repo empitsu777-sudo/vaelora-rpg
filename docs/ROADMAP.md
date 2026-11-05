@@ -1,27 +1,27 @@
-# Development Roadmap — Vaelora Action-Adventure RPG
-As of 2026-10-15. All statuses refer to *verified* deliverables, not planned work.
+# Vaelora — Bellhaven-First Recovery Roadmap
 
-| Phase | Milestone | Definition of done | Status |
+Updated **2026-11-06**, replacing the obsolete October 16–18 sprint and unreconciled region rollout **as an active engineering schedule**. Older creative ideas remain historical proposals, not automatically deleted lore.
+
+| Gate | Deliverable | Acceptance condition | Status |
 |---|---|---|---|
-| 0 | Repository and canonical design baseline | Versioned docs, changelog, QA gates | IN PROGRESS |
-| 1 | 3-day preproduction research | Coherent lore, world/quests, mechanics; contradictions resolved or logged | PLANNED (Oct 16–18) |
-| 2 | Visual identity exploration | Original 240x160 town and battle mockups approved at 1x, not enlarged alone | PLANNED |
-| 3 | Engine foundation | Compiles cleanly, emulator-verified camera/collision/layers/sprites/events/saves | PLANNED |
-| 4 | Shatterglass vertical slice | Bellhaven + Reedwake + Prismere, routes, interiors, Sanctum, action combat | PLANNED |
-| 5 | Sapphire Coast | Three designed/implemented settlements and Sanctum | PLANNED |
-| 6 | Iron-Weep Deepworks | Three designed/implemented settlements and Sanctum | PLANNED |
-| 7 | Thorn Choir | Three designed/implemented settlements and Sanctum | PLANNED |
-| 8 | Aerie of Seven Winds | Three designed/implemented settlements and Sanctum | PLANNED |
-| 9 | Still Basilica | Three designed/implemented settlements, Sanctum, finale | PLANNED |
-| 10 | Polish/QA | Performance, regression tests, playtesting, audio, balancing, accessibility | PLANNED |
+| 0 | Source-of-truth / issue triage | Active private archive verified, hashes/lineage recorded, P0 failures documented | **DOCUMENTED; source still experimental** |
+| 1 | Art-aligned Bellhaven scene | Python editor draws/rasterizes collision and doors on actual baked art; 1× image/mask audit | **BLOCKED; coarse masks failed user test** |
+| 2 | Consistent player/NPC sprite family | Original pixels, realistic 16×24–32 chibi proportions, four-direction walk and proper feet sorting | **BLOCKED** |
+| 3 | Golden Route emulator test | Can't cross inn/trees; can enter shop and exit; talks to NPC; smooth movement recorded in mGBA | **NOT PASSED** |
+| 4 | All eight Bellhaven interiors | Eight aligned entrances; 27 planned indoor NPC positions and 80 items inspected, useful furnishings | **PROTOTYPE ONLY; acceptance incomplete** |
+| 5 | Bellhaven village life | Pets/NPC routines, ambient overlays, readable UI, meaningful neighborhood quests | **PARTIAL EXPERIMENT** |
+| 6 | Save/progression/recovery | State persists in actual emulator, recovery tested, deterministic build and full QA | **NOT VERIFIED** |
+| 7 | Bellhaven player approval | Emulator evidence, representative ten-minute human playtest and resolved P0 register | **NOT APPROVED** |
+| 8 | Deepwood / six-region game | Design and expand once Bellhaven meets gate 7 | **ON HOLD** |
 
-## Three-day sprint (9 PM IST check-in each day)
-- **Oct 16:** historical timeline, First Chorus, Hush, Synod, faction moral conflicts; source-backed game-design research.
-- **Oct 17:** regional cultures, all eighteen settlement identities, quests, NPC relationships, travel routes and economic logic.
-- **Oct 18:** main and side-story structure, companion/real-time combat, loot/equipment/crafting/avatar systems, progression and contradiction audit.
+## Recommended execution order
 
-## Workflow
-Each work session: read canon + latest changelog -> define specific deliverable -> implement/research -> test/review -> update docs/tests -> record evidence/known issues -> plan next iteration. No milestone is completed solely because a file or ROM compiles. No automatic assumption that future scheduled tasks can modify this repository without repository access on that run.
+1. Stop shipping ROMs labelled repaired on Python tests alone.
+2. Use Python to annotate real visual obstacles, doors and legal NPC feet positions against the approved baked picture. Remove collisions based on outdated architecture-only grids.
+3. Build consistent chibi and movement system, then test Golden Route on actual GBA emulator with input logs, 1× captures and recorded performance.
+4. Address all eight interiors and player flow; then elevate art/props and ambient animation to reference quality.
+5. Implement save/progression; confirm actual user acceptance. No arbitrary commitment to hour/date delivery or 90%-visual claims.
 
-## Prototype history
-Old Vaelora ROM v0.1/v0.2 were inadequate experiments, **not** production foundation. Pokémon Emerald reference audit informs quality and hardware constraints only.
+## Development cadence
+
+Eight existing Asia/Kolkata sessions (00/03/06/09/12/15/18/21) remain, but **highest-impact reported blocker overrides theme**. Every session should inspect latest verified candidate, make a substantive change or report no release, run appropriate tests, preserve baselines, and attach verified artifacts/defect report. No work is implied without a task actually running.

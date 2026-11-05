@@ -1,0 +1,16 @@
+{
+  "release_status": "stop_ship_player_test_failed",
+  "candidate": "Vaelora_Bellhaven_Repair04_Experimental.gba",
+  "rom_sha256": "1bd90af5cb61d577a1dba97958fbc0e15f70e2d7a0277070f2166ea47f97708c",
+  "open_p0_count": 5,
+  "python_tests": {"passed": true, "evidence": "Repair04_QA: 42 Python tests, report only"},
+  "native_sanitizer": {"passed": true, "evidence": "Repair04_QA: native sanitizer harness report"},
+  "twice_clean_rom": {"passed": true, "evidence": "Repair04_QA: two identical ARMv4T ROM builds"},
+  "emulator_boot": {"passed": false, "evidence": "No genuine emulator validation by developer"},
+  "emulator_collision": {"passed": false, "evidence": "Player reports walking through scenery"},
+  "emulator_doors": {"passed": false, "evidence": "Player reports inaccessible buildings"},
+  "emulator_dialogue": {"passed": false, "evidence": "Player reports broken NPC interactions"},
+  "emulator_movement": {"passed": false, "evidence": "Player reports unsatisfactory walking speed/animation"},
+  "visual_sprite_review": {"passed": false, "evidence": "Player rejects sprite scale and placement"},
+  "user_acceptance": {"passed": false, "evidence": "Actual player rejected Repair04 on 2026-11-06"}
+}

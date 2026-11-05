@@ -1,0 +1,25 @@
+name: Documentation release guard
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  governance-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check release-gate unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify Repair04 remains blocked
+        shell: bash
+        run: |
+          if python tools/release_gate.py docs/RELEASE_EVIDENCE_REPAIR04.json; then
+            echo 'ERROR: failed player acceptance was incorrectly cleared'
+            exit 1
+          fi
+          echo 'Repair04 correctly blocked from release'
