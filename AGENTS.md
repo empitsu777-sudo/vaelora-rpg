@@ -35,3 +35,5 @@
 ## Work session focus, Asia/Kolkata
 
 00:00 sprites/pets; 03:00 Python art/asset pipeline; 06:00 interiors; 09:00 art/collision exterior alignment; 12:00 NPC/dialogue/quests; 15:00 movement/controls; 18:00 integration; 21:00 reproducible builds, emulator QA. **Always prioritize top blocker over hourly theme.**
+## Mandatory illustrated character overhaul (2026-11-06)
+Read `docs/CHARACTER_ART_STANDARD.md` before touching sprite assets. Replace generic chibis with original compact illustrated Bellhaven-style player/NPC/pet sprite art. First prove player + two NPCs + one pet at 240x160 and then an actual emulator Golden Route before expanding the cast.
